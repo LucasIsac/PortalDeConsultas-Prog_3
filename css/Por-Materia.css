@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+}
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.titulo-sistema {
+    text-align: center;
+    padding: 30px 20px 10px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+}
+
+.titulo-sistema h1 {
+    font-size: 2.2rem;
+    color: #2c3e50;
+    margin: 0;
+}
+
+
+.contenido {
+    padding: 30px 20px;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contenido h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.contenido h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+
+.tabla-notas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tabla-notas th, .tabla-notas td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.tabla-notas th {
+    background-color: #007bff;
+    color: white;
+}
+
+.tabla-notas tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+.btn-volver {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+.btn-volver:hover {
+    background-color: #0056b3;
+}
+
+
+.error {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.info {
+    color: #333;
+    font-style: italic;
+}
