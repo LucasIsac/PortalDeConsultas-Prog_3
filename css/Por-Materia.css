@@ -27,6 +27,20 @@ body, html {
     margin: 0;
 }
 
+.titulo-con-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 15px; 
+    padding: 10px 0; 
+}
+
+.logo-unlar {
+    width: 60px; 
+    height: auto;
+    display: block;
+}
+
 
 .contenido {
     padding: 30px 20px;

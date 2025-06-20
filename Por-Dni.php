@@ -10,8 +10,11 @@
     <div class="pagina">
 
         
-        <header class="titulo-sistema">
-            <h1>Portal de Consultas Académicas - UNLaR</h1>
+          <header class="titulo-sistema">
+             <div class="titulo-con-logo">
+                <img src="Logo-UNLAR.png" alt="UNLaR" class="logo-unlar">
+                <h1>Portal de Consultas Académicas - UNLaR</h1>
+              </div>
         </header>
 
         <main class="contenido">
